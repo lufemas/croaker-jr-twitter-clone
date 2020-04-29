@@ -1,0 +1,25 @@
+.title-source{
+    margin-left: 1rem;
+}
+
+.title-source a {
+    color: #333;
+    text-align: right;
+    text-decoration: none;
+}
+
+.title-source a:hover {
+
+    border-bottom: solid .1rem purple;
+
+}
+
+.fa-github{
+    font-size: 1.25rem;
+    margin: 0 .35rem;
+    color: rgb(73, 6, 73);
+}
+
+strong{
+    color: #222;
+}
