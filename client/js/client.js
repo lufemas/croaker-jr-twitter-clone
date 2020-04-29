@@ -3,7 +3,7 @@ const $form = $.querySelector(`form`);
 const $loading = $.querySelector(`.loading`);
 const $croaks = $.querySelector(`.croaks`);
 
-const API_URL =`http://localhost:5000/croaks`;
+const API_URL = window.location.hostname === 'localhost' ? `http://localhost:5000/croaks` : 'https://croaker-api.now.sh/croaks';
 
 $loading.style.display =``;
 
